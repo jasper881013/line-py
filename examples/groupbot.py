@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from linepy import *
 
-line = LINE('jasper.j881013@msa.hinet.net', 'jasper130534097')
+line = LINE('EMAIL', 'PASSWORD')
 #line = LINE('AUTHTOKEN')
 
 line.log("Auth Token : " + str(line.authToken))
